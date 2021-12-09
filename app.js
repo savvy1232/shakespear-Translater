@@ -2,7 +2,7 @@ const btnTranslate = document.querySelector("#btn-translate");
 const outputDiv = document.querySelector("#output");
 const textInput = document.querySelector("#text-input");
 
-const url = "https://api.funtranslations.com/translate/hodor.json";
+const url = "https://api.funtranslations.com/translate/shakespeare.json";
 
 function urlcreator(text) {
   return url + "?text=" + text;
